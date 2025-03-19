@@ -13,10 +13,10 @@ If (!(Test-Path $RaporDizini)) {
 # Script bilgilerini göster
 Write-Host "=================================" -ForegroundColor Cyan
 Write-Host " AD Kullanıcı Yönetim Scripti" -ForegroundColor Green
-Write-Host " Derleme: 12 | Versiyon: 1.3" -ForegroundColor Yellow
+Write-Host " Derleme: 3 | Versiyon: 1.0" -ForegroundColor Yellow
 Write-Host " Yazar: Emrah Tolu" -ForegroundColor Magenta
 Write-Host "=================================" -ForegroundColor Cyan
-Start-Sleep -Seconds 2  # Bilgi ekranını 2 saniye göster
+Start-Sleep -Seconds 3  # Bilgi ekranını 3 saniye göster
 function Menu {
     Clear-Host
     Write-Host "========================================" -ForegroundColor Cyan
