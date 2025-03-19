@@ -12,7 +12,7 @@ If (!(Test-Path $RaporDizini)) {
 
 # Script bilgilerini göster
 Write-Host "=================================" -ForegroundColor Cyan
-Write-Host " AD Kullanıcı Yönetim Scripti" -ForegroundColor Green
+Write-Host " AD Kullanıcı Raporlama Scripti" -ForegroundColor Green
 Write-Host " Derleme: 3 | Versiyon: 1.0" -ForegroundColor Yellow
 Write-Host " Yazar: Emrah Tolu" -ForegroundColor Magenta
 Write-Host "=================================" -ForegroundColor Cyan
