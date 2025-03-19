@@ -20,7 +20,7 @@ Start-Sleep -Seconds 3  # Bilgi ekranını 3 saniye göster
 function Menu {
     Clear-Host
     Write-Host "========================================" -ForegroundColor Cyan
-    Write-Host "          ACTIVE DIRECTORY RAPORLARI" -ForegroundColor Yellow
+    Write-Host "          AD RAPORLARI" -ForegroundColor Yellow
     Write-Host "========================================" -ForegroundColor Cyan
     Write-Host "[1] Aktif Kullanıcı Listesi"
     Write-Host "[2] Son 90 Gün İçinde Hiç Giriş Yapmamış Kullanıcılar"
